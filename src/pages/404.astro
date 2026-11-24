@@ -1,27 +1,88 @@
 ---
-import '../styles/global.css';
-import { Button } from '../components/ui/Button';
+// 404 - Beleza de Mar
 ---
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>404 - Page Not Found</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página não encontrada | Beleza de Mar</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;1,6..96,500&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --mata: #3F4D2E;
+      --oliva: #8F9A6E;
+      --espuma: #F4F8F7;
+      --sol: #C8A15B;
+      --graf: #23323A;
+      --serif: "Bodoni Moda", Didot, Georgia, serif;
+      --sans: Figtree, system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--espuma);
+      color: var(--graf);
+      font-family: var(--sans);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 24px;
+    }
+    .box { max-width: 520px; }
+    .logo { width: 140px; margin-bottom: 24px; }
+    h1 {
+      font-family: var(--serif);
+      font-size: 5rem;
+      font-weight: 500;
+      color: var(--mata);
+      margin: 0 0 8px;
+      line-height: 1;
+    }
+    h2 {
+      font-family: var(--serif);
+      font-size: 1.8rem;
+      font-weight: 500;
+      color: var(--graf);
+      margin: 0 0 16px;
+    }
+    p {
+      color: #667085;
+      font-size: 1.05rem;
+      line-height: 1.6;
+      margin: 0 0 32px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 50px;
+      padding: 12px 32px;
+      border-radius: 999px;
+      background: var(--mata);
+      color: var(--espuma);
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .btn:hover { background: #2F3B22; }
+  </style>
 </head>
-<body class="bg-[var(--color-bg)] text-[var(--color-text)] font-[var(--font-body)] m-0 min-h-screen flex items-center justify-center" style="font-family: 'Inter', sans-serif;">
-    <div class="text-center p-8 max-w-lg">
-        <h1 class="text-9xl font-bold text-[var(--color-primary)] m-0 leading-none">404</h1>
-        <h2 class="text-3xl font-semibold mt-6 mb-2">Page not found</h2>
-        <p class="text-[var(--color-text-muted)] text-lg mb-8">The page you're looking for doesn't exist or has been moved.</p>
-        <div class="flex gap-4 justify-center">
-            <Button as="a" href="/" variant="primary" client:load>Go back home</Button>
-            <Button as="a" href="/contact" variant="secondary" client:load>Contact support</Button>
-        </div>
-    </div>
+<body>
+  <div class="box">
+    <img src="/images/noivas/logo-beleza-de-mar.png" alt="Beleza de Mar" class="logo" />
+    <h1>404</h1>
+    <h2>Página não encontrada</h2>
+    <p>A página que você procura não existe ou foi movida. Que tal conhecer as experiências de beleza para noivas?</p>
+    <a href="/" class="btn">Voltar para a página inicial</a>
+  </div>
 </body>
 </html>

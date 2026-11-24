@@ -1,4 +1,4 @@
----
+﻿---
 // Noivas em Manaus | Beleza de Mar
 ---
 <!DOCTYPE html>
@@ -203,7 +203,7 @@ input[type=text],input[type=date]{font-size:16px}
 <p class="section-lead">Da preparação ao último ajuste, cada etapa é pensada para que você aproveite seu casamento com confiança.</p>
 <div class="grid4">
 <div><h3>Beleza</h3><p>Maquiagem e penteado pensados para o seu estilo. O teste completo, com maquiagem e penteado, está incluído nos pacotes Completo e Premium.</p></div>
-<div><h3>Assessoria</h3><p>No Completo e Premium, são até quatro horas de acompanhamento durante o evento, com suporte para retoques, ajustes e cuidados com a produção da noiva.</p></div>
+<div><h3>Assessoria</h3><p>Inclusa no pacote Premium (até 4 horas) e disponível como adicional para todos os pacotes, com suporte para retoques, ajustes e cuidados durante o evento.</p></div>
 <div><h3>Memórias</h3><p>Making Of Beleza de Mar como adicional: registros fotográficos da preparação reunidos em um vídeo compilado.</p></div>
 <div><h3>Cuidado</h3><p>No Premium, spa dos pés, massagem e reflexologia (1h30), além de coffee break para três pessoas.</p></div>
 </div>
@@ -259,8 +259,8 @@ input[type=text],input[type=date]{font-size:16px}
 <div class="cards package-cards">
 <article class="card package-card"><img alt="Noiva em retrato com produção para casamento civil" class="package-img" loading="lazy" src="/images/noivas/pacote-civil.jpg"/><div class="package-copy"><p class="eyebrow">Celebração intimista</p><h3>Noiva Civil</h3><p class="package-desc">Uma produção elegante e prática para celebrar o seu casamento civil com beleza e tranquilidade.</p><ul><li>Maquiagem profissional</li><li>Penteado</li></ul><p class="preco">R$ 500,00</p><button class="btn" data-p="civil">Escolher este pacote</button></div></article>
 <article class="card package-card"><img alt="Detalhe da maquiagem e beleza de uma noiva" class="package-img" loading="lazy" src="/images/noivas/pacote-essencial.jpg"/><div class="package-copy"><p class="eyebrow">O essencial para sua produção</p><h3>Essencial</h3><p class="package-desc">Maquiagem e penteado personalizados para valorizar seu estilo e fazer você se sentir segura ao viver cada momento.</p><ul><li>Maquiagem profissional</li><li>Penteado</li><li>Robe de noiva</li><li>Teste completo disponível como adicional</li></ul><p class="preco">R$ 700,00</p><button class="btn" data-p="essencial">Escolher este pacote</button></div></article>
-<article class="card dest package-card"><img alt="Noiva pronta para o casamento com vestido e buquê" class="package-img" loading="lazy" src="/images/noivas/pacote-completo.jpg"/><div class="package-copy"><span class="tag">Experiência completa</span><p class="eyebrow">Mais tranquilidade em cada etapa</p><h3>Completo</h3><p class="package-desc">Para quem deseja se preparar com antecedência e contar com apoio também durante o evento.</p><ul><li>Maquiagem profissional e penteado</li><li>Teste completo de noiva</li><li>Robe de noiva</li><li>Assessoria durante o evento por até 4 horas (opcional)</li></ul><p class="preco">R$ 1.100,00</p><button class="btn" data-p="completo">Escolher este pacote</button></div></article>
-<article class="card dark package-card"><img alt="Detalhe de penteado de noiva" class="package-img" loading="lazy" src="/images/noivas/pacote-premium.jpg"/><div class="package-copy"><p class="eyebrow">Uma experiência especial</p><h3>Premium</h3><p class="package-desc">Uma preparação ampliada, que combina beleza, cuidado e conforto para você e pessoas queridas.</p><ul><li>Tudo do pacote Completo</li><li>Spa dos pés, massagem e reflexologia (1h30)</li><li>Coffee break para três pessoas</li></ul><p class="preco">R$ 2.090,00</p><button class="btn" data-p="premium">Escolher este pacote</button></div></article>
+<article class="card dest package-card"><img alt="Noiva pronta para o casamento com vestido e buquê" class="package-img" loading="lazy" src="/images/noivas/pacote-completo.jpg"/><div class="package-copy"><span class="tag">Experiência completa</span><p class="eyebrow">Mais tranquilidade em cada etapa</p><h3>Completo</h3><p class="package-desc">Para quem deseja se preparar com antecedência com teste completo e robe de noiva exclusivo.</p><ul><li>Maquiagem profissional e penteado</li><li>Teste completo de noiva</li><li>Robe de noiva</li></ul><p class="preco">R$ 1.100,00</p><button class="btn" data-p="completo">Escolher este pacote</button></div></article>
+<article class="card dark package-card"><img alt="Detalhe de penteado de noiva" class="package-img" loading="lazy" src="/images/noivas/pacote-premium.jpg"/><div class="package-copy"><p class="eyebrow">Uma experiência especial</p><h3>Premium</h3><p class="package-desc">Uma preparação ampliada, que combina beleza, cuidado e conforto para você e pessoas queridas.</p><ul><li>Tudo do pacote Completo</li><li>Spa dos pés, massagem e reflexologia (1h30)</li><li>Coffee break para três pessoas</li><li>Assessoria durante o evento por até 4 horas</li></ul><p class="preco">R$ 2.090,00</p><button class="btn" data-p="premium">Escolher este pacote</button></div></article>
 </div>
 </div>
 </section>
@@ -282,6 +282,7 @@ input[type=text],input[type=date]{font-size:16px}
 <p class="small">O coffee break está incluído para três pessoas no Premium. Pessoas extras são cobradas somente nesse pacote.</p>
 </fieldset>
 <fieldset><legend>4. Serviços adicionais (opcional)</legend>
+<div class="step" id="step-ass"><span>Assessoria no evento <b>R$ 100,00/h</b><br/><span class="small" id="ass-note">Mínimo de 2 horas (R$ 200,00)</span></span><div><button aria-label="Menos horas de assessoria" data-d="-1" data-s="ass" type="button">−</button><output aria-live="polite" id="ass">0h</output><button aria-label="Mais horas de assessoria" data-d="1" data-s="ass" type="button">+</button></div></div>
 <label class="addon-check"><input id="teste" type="checkbox"/><span><strong>Teste completo de noiva — R$ 400,00</strong><br/><span class="small">Disponível como adicional para o pacote Essencial.</span></span></label>
 <label class="addon-check"><input id="making" type="checkbox"/><span><strong>Making Of Beleza de Mar — R$ 350,00</strong><br/><span class="small">Preço especial na contratação junto com qualquer pacote de noiva. Avulso: R$ 450,00.</span></span></label>
 </fieldset>
@@ -316,7 +317,7 @@ input[type=text],input[type=date]{font-size:16px}
 <details><summary>Posso fazer em casa, no hotel ou no local do casamento?</summary><p>Sim. Para atendimentos fora do estúdio, há uma taxa de deslocamento de R$ 100,00. No Premium, o spa também pode ser realizado no local combinado.</p></details>
 <details><summary>Madrinhas e a mãe da noiva também podem fazer?</summary><p>Podem. Maquiagem custa R$ 200,00 e penteado R$ 180,00, por pessoa, como adicionais ao pacote da noiva.</p></details>
 <details><summary>Como funciona o Making Of Beleza de Mar?</summary><p>É um serviço adicional realizado pela equipe Beleza de Mar, com captação de fotografias, um vídeo compilado e entrega digital em até 7 dias úteis. O valor avulso é R$ 450,00; junto com um pacote de noiva, R$ 350,00.</p></details>
-<details><summary>Como funciona a assessoria adicional?</summary><p>Os pacotes Completo e Premium incluem até 4 horas de assessoria. Para os demais casos, a contratação adicional custa R$ 100,00 por hora, com mínimo de 2 horas.</p></details>
+<details><summary>Como funciona a assessoria durante o evento?</summary><p>O pacote Premium já inclui até 4 horas de assessoria. Para todos os outros pacotes (Noiva Civil, Essencial e Completo), você pode adicionar assessoria a partir de 2 horas por R$ 200,00, com horas adicionais a R$ 100,00/hora. No Premium, caso precise de mais horas além das 4 inclusas, cada hora extra também custa R$ 100,00.</p></details>
 <details><summary>O coffee break do Premium pode incluir mais pessoas?</summary><p>Sim. O pacote inclui três pessoas. Cada pessoa adicional custa R$ 35,00.</p></details>
 <details><summary>O teste de noiva está incluído em todos os pacotes?</summary><p>O teste completo, com maquiagem e penteado, está incluído nos pacotes Completo e Premium. No Essencial, pode ser contratado por R$ 400,00.</p></details>
 <details><summary>Por que a disponibilidade é confirmada pelo WhatsApp?</summary><p>Como há um limite de atendimentos por dia, verificamos a agenda da sua data antes de confirmar qualquer horário.</p></details>
@@ -340,15 +341,15 @@ input[type=text],input[type=date]{font-size:16px}
 (function(){
 var P=[
 {id:"civil",n:"Noiva Civil",p:500,d:"Maquiagem profissional e penteado"},
-
 {id:"essencial",n:"Essencial",p:700,d:"Maquiagem profissional, penteado e robe de noiva"},
-{id:"completo",n:"Completo",p:1100,d:"Maquiagem e penteado, teste, robe e assessoria opcional"},
-{id:"premium",n:"Premium",p:2090,d:"Completo, spa e coffee break para 3 pessoas"}
+{id:"completo",n:"Completo",p:1100,d:"Maquiagem profissional, penteado, teste e robe"},
+{id:"premium",n:"Premium",p:2090,d:"Completo, spa, coffee break e 4h de assessoria"}
 ];
-var MAQ=200,PEN=180,DESL=100,TESTE=400,MAKING=350,COFFEE=35,NUM="5592985258948";
+var MAQ=200,PEN=180,DESL=100,TESTE=400,MAKING=350,COFFEE=35,ASS_HORA=100,NUM="5592985258948";
 var $=function(i){return document.getElementById(i)};
 var brl=function(v){return v.toLocaleString("pt-BR",{style:"currency",currency:"BRL"})};
-var q={maq:0,pen:0,coffee:0};
+var q={maq:0,pen:0,coffee:0,ass:0};
+var lastPkgId="completo";
 var box=$("pk");
 P.forEach(function(x){
  var l=document.createElement("label");l.className="op";
@@ -358,23 +359,56 @@ P.forEach(function(x){
 function get(n){var e=document.querySelector('input[name="'+n+'"]:checked');return e?e.value:""}
 function upd(){
  var pk=P.filter(function(x){return x.id===get("pkg")})[0]||P[2];
+ if(pk.id!==lastPkgId){
+  if((pk.id==="premium")!==(lastPkgId==="premium")){
+   q.ass=0;
+  }
+  lastPkgId=pk.id;
+ }
  var ext=get("loc")==="ext";
  var teste=$("teste").checked && pk.id==="essencial"?TESTE:0;
  var making=$("making").checked && MAKING;
  var coffee=pk.id==="premium"?q.coffee*COFFEE:0;
- var ad=q.maq*MAQ+q.pen*PEN+teste+making+coffee, ds=ext?DESL:0;
+ var assCost=q.ass*ASS_HORA;
+ var ad=q.maq*MAQ+q.pen*PEN+teste+making+coffee+assCost, ds=ext?DESL:0;
  var tot=pk.p+ad+ds, sin=tot/2;
  $("r1").textContent=pk.n+" "+brl(pk.p);
- var txt=[];if(q.maq)txt.push(q.maq+" maquiagem");if(q.pen)txt.push(q.pen+" penteado");if(teste)txt.push("teste completo");if(making)txt.push("Making Of");if(coffee)txt.push(q.coffee+" pessoa(s) extra(s) no coffee break");
+ 
+ var txt=[];
+ if(q.maq)txt.push(q.maq+" maquiagem");
+ if(q.pen)txt.push(q.pen+" penteado");
+ if(pk.id==="premium"){
+  if(q.ass)txt.push(q.ass+"h extra(s) de assessoria ("+brl(assCost)+")");
+ }else{
+  if(q.ass)txt.push(q.ass+"h de assessoria ("+brl(assCost)+")");
+ }
+ if(teste)txt.push("teste completo");
+ if(making)txt.push("Making Of");
+ if(coffee)txt.push(q.coffee+" pessoa(s) extra(s) no coffee break");
+ 
  $("r2").textContent=txt.length?txt.join(", ")+" — "+brl(ad):"Nenhum";
  $("r3").textContent=ext?brl(DESL):"Não se aplica";
  $("tt").textContent=brl(tot);$("sn").textContent=brl(sin);$("rs").textContent=brl(tot-sin);
+ 
  $("teste").disabled=pk.id!=="essencial";
  if(pk.id!=="essencial")$("teste").checked=false;
  $("making").disabled=false;
  
+ var assOut=$("ass"), assNote=$("ass-note");
+ if(pk.id==="premium"){
+  if(assOut) assOut.textContent=q.ass?(4+q.ass)+"h":"4h";
+  if(assNote) assNote.textContent=q.ass?("4h inclusas + "+q.ass+"h adicional ("+brl(assCost)+")"):"4 horas já inclusas no Premium (+ R$ 100/h extra)";
+ }else{
+  if(assOut) assOut.textContent=q.ass?q.ass+"h":"0h";
+  if(assNote) assNote.textContent=q.ass?(q.ass+" horas selecionadas ("+brl(assCost)+")"):"Mínimo de 2 horas (R$ 200,00)";
+ }
+ 
+ ["maq","pen","coffee"].forEach(function(k){var el=$(k);if(el)el.textContent=String(q[k]);});
+ 
  var coffeeStep=document.querySelector('[data-s="coffee"]').closest('.step');
- coffeeStep.style.opacity=pk.id==="premium"?"1":".55";coffeeStep.querySelectorAll("button").forEach(function(btn){btn.disabled=pk.id!=="premium";});
+ coffeeStep.style.opacity=pk.id==="premium"?"1":".55";
+ coffeeStep.querySelectorAll("button").forEach(function(btn){btn.disabled=pk.id!=="premium";});
+ 
  var nome=$("nome").value.trim(),email=$("email").value.trim(),dt=$("data").value,dd=dt?dt.split("-").reverse().join("/"):"",hora=$("hora").value;
  var m="Olá! Montei meu orçamento de noiva no site do Beleza de Mar.\nNome: "+nome+"\n"+(email?"E-mail: "+email+"\n":"")+"Pacote: "+pk.n+" ("+brl(pk.p)+")\nAtendimento: "+(ext?"no local do evento ou hotel (deslocamento "+brl(DESL)+")":"no estúdio")+"\n"+(txt.length?"Adicionais: "+txt.join(", ")+"\n":"")+"Data do casamento: "+dd+"\nHorário previsto do evento: "+hora+"\nValor estimado: "+brl(tot)+" (sinal de 50%: "+brl(sin)+")\nGostaria de verificar a disponibilidade.";
  $("zap").href="https://wa.me/"+NUM+"?text="+encodeURIComponent(m);
@@ -389,7 +423,6 @@ $("zap").addEventListener("click",function(e){
  if(email.value.trim()&&!email.checkValidity()){e.preventDefault();email.reportValidity();email.focus();return;}
  upd();
 });
-// Controles de quantidade: delegação de eventos para maior compatibilidade mobile.
 document.addEventListener("click",function(e){
  var b=e.target && e.target.closest ? e.target.closest("button[data-s][data-d]") : null;
  if(!b) return;
@@ -398,10 +431,23 @@ document.addEventListener("click",function(e){
  if(!Object.prototype.hasOwnProperty.call(q,k)) return;
  var delta=parseInt(b.getAttribute("data-d"),10);
  if(!Number.isFinite(delta)) return;
- var max=k==="coffee"?6:9;
- q[k]=Math.max(0,Math.min(max,q[k]+delta));
- var out=$(k);
- if(out) out.textContent=String(q[k]);
+ var pk=P.filter(function(x){return x.id===get("pkg")})[0]||P[2];
+ if(k==="ass"){
+  if(pk.id==="premium"){
+   q.ass=Math.max(0,Math.min(6,q.ass+delta));
+  }else{
+   if(delta>0){
+    if(q.ass===0) q.ass=2;
+    else q.ass=Math.min(8,q.ass+1);
+   }else{
+    if(q.ass<=2) q.ass=0;
+    else q.ass=q.ass-1;
+   }
+  }
+ }else{
+  var max=k==="coffee"?6:9;
+  q[k]=Math.max(0,Math.min(max,q[k]+delta));
+ }
  upd();
 },true);
 document.querySelectorAll("[data-p]").forEach(function(b){b.addEventListener("click",function(){
